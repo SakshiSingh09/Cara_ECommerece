@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- To add js bundles -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/> -->
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header Section Starts -->
+  <section class="nav-section">
+    <div>
+      <img src="images/logo.png" alt="logo">
+    </div>
+    <div class="nav">
+      <a href="/" target="_self">Home</a>
+      <a href="#shop" class="active-home">Shop</a>
+      <a href="/blog" target="_self">Blog</a>
+      <a href="/about" target="_self">About</a>
+      <a href="/contact" target="_self">Contact</a>
+      <a href="/bag" target="_self"><i class='bx bx-shopping-bag'></i></a>
+      <a href="#"><i class='bx bx-log-out sign-outLogo'></i></a>
+    </div>
+    <div class="menu">
+      <i class='bx bx-menu'></i>
+    </div>
+  </section>
+  <section id="sidebar">
+    <div class="side-menu">
+      <img src="images/logo.png" alt="logo">
+      <a href="/" target="_self">Home</a>
+      <a href="#shop" class="active-home">Shop</a>
+      <a href="/blog" target="_self">Blog</a>
+      <a href="/about" target="_self">About</a>
+      <a href="/contact" target="_self">Contact</a>
+      <a href="/bag" target="_self"><i class='bx bx-shopping-bag'></i></a>
+    </div>
+    <div class="sign-out">
+      <a href="#">
+        <p>Sign Out</p>
+        <i class='bx bx-log-out sign-outLogo'></i>
+      </a>
+    </div>
+  </section>
+  <!-- Header Section Ends -->
+  <!-- Home Section Starts -->
+  <section class="page-header" id="shop">
+    <h2>#stayhome</h2>
+    <h6>Save more with coupons & upto 70% off</h6>
+  </section>
+  <div class="products-section">
+    <div class="row product-row">
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="1">
+          <a href="/sproduct"><img src="images/products/f1.jpg" class="card-img-top" alt="cloth1"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$178</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="2">
+          <a href="/sproduct"><img src="images/products/f2.jpg" class="card-img-top" alt="cloth2"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$88</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="3">
+          <a href="/sproduct"><img src="images/products/f3.jpg" class="card-img-top" alt="cloth3"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$78</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="4">
+          <a href="/sproduct"><img src="images/products/f4.jpg" class="card-img-top" alt="cloth4"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$120</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row product-row">
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="5">
+          <a href="/sproduct"><img src="images/products/f5.jpg" class="card-img-top" alt="cloth5"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$138</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="6">
+          <a href="/sproduct"><img src="images/products/f6.jpg" class="card-img-top" alt="cloth6"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$79</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="7">
+          <a href="/sproduct"><img src="images/products/f7.jpg" class="card-img-top" alt="cloth7"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$78</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="8">
+          <a href="/sproduct"><img src="images/products/f8.jpg" class="card-img-top" alt="cloth8"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$78</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row product-row">
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="9">
+          <a href="/sproduct"><img src="images/products/n1.jpg" class="card-img-top" alt="cloth9"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$78</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="10">
+          <a href="/sproduct"><img src="images/products/n2.jpg" class="card-img-top" alt="cloth10"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$78</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="11">
+          <a href="/sproduct"><img src="images/products/n3.jpg" class="card-img-top" alt="cloth11"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$78</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="12">
+          <a href="/sproduct"><img src="images/products/n4.jpg" class="card-img-top" alt="cloth12"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$100</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row product-row">
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="13">
+          <a href="/sproduct"><img src="images/products/n5.jpg" class="card-img-top" alt="cloth13"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$78</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="14">
+          <a href="/sproduct"><img src="images/products/n6.jpg" class="card-img-top" alt="cloth14"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$78</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="15">
+          <a href="/sproduct"><img src="images/products/n7.jpg" class="card-img-top" alt="cloth15"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$78</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 product-col">
+        <div class="card" id="16">
+          <a href="/sproduct"><img src="images/products/n8.jpg" class="card-img-top" alt="cloth16"></a>
+          <div class="card-body">
+            <p>adidas</p>
+            <h5>Cartoon Astranaut T-Shirts</h5>
+            <div class="cart">
+              <div class="left">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <h5 class="price">$78</h5>
+              </div>
+              <div class="right">
+                <i class='bx bx-cart bx-sm'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- NewsLetter Section Starts -->
+  <div class="newsletter-section">
+    <div class="row newsletter-row">
+      <div class="col-lg-6 col-md-6 left">
+        <h3>Sign Up For Newsletters</h3>
+        <h6>Get e-mail updates about our latest shop and <span>special offers</span></h6>
+      </div>
+      <div class="col-lg-6 col-md-6 right">
+        <input type="email" name="" value="" placeholder="Your email address">
+        <label for="">Sign Up</label>
+      </div>
+    </div>
+  </div>
+  <!-- NewsLetter Section Endss -->
+  <!-- Home Section Ends -->
+  <!-- Footer Section Starts -->
+  <footer>
+    <div class="row monitor-footer">
+      <div class="col-lg-3 col-md-6 footer-col">
+        <img src="images/logo.png" alt="">
+        <p class="footer-heading">Contact</p>
+        <p><span>Address: </span>562 Kannaug Nagar Mumbai Maharshtra.</p>
+        <p><span>Phone: </span>111-222-3456; +91 7397223389</p>
+        <p><span>Hours: </span>10:00 - 18:00 Mon-Sat</p>
+        <p class="footer-heading">Follow Us</p>
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-twitter'></i>
+        <i class='bx bxl-instagram'></i>
+        <i class='bx bxl-pinterest-alt'></i>
+        <i class='bx bxl-youtube'></i>
+      </div>
+      <div class="col-lg-3 col-md-6 footer-col">
+        <p class="footer-heading">About</p>
+        <p>About Us</p>
+        <p>Delivery Information</p>
+        <p>Privacy Policy</p>
+        <p>Terms & Conditions</p>
+        <p>Contact Us</p>
+      </div>
+      <div class="col-lg-3 col-md-6 footer-col">
+        <p class="footer-heading">My Account</p>
+        <p>Sign In</p>
+        <p>View Cart</p>
+        <p>My Wishlist</p>
+        <p>Track My Order</p>
+        <p>Help</p>
+      </div>
+      <div class="col-lg-3 col-md-6 footer-col">
+        <p class="footer-heading">Install App</p>
+        <p>From App Store or Google Play</p>
+        <div class="footer-button">
+          <button type="button" name="button"><img src="images/pay/app.jpg"></button>
+          <button type="button" name="button"><img src="images/pay/play.jpg"></button>
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="images/pay/pay.png" alt="">
+      </div>
+    </div>
+    <div class="accordion accordion-flush mobile-footer" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <img src="images/logo.png" alt="">
+            <p class="footer-heading">Contact</p>
+            <p><span>Address: </span>562 Kannaug Nagar Mumbai Maharshtra.</p>
+            <p><span>Phone: </span>111-222-3456; +91 7397223389</p>
+            <p><span>Hours: </span>10:00 - 18:00 Mon-Sat</p>
+            <p class="footer-heading">Follow Us</p>
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-pinterest-alt'></i>
+            <i class='bx bxl-youtube'></i>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <p>About Us</p>
+            <p>Delivery Information</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Contact Us</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <p>Sign In</p>
+            <p>View Cart</p>
+            <p>My Wishlist</p>
+            <p>Track My Order</p>
+            <p>Help</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            Install App
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <p>From App Store or Google Play</p>
+            <div class="footer-button">
+              <button type="button" name="button"><img src="images/pay/app.jpg"></button>
+              <button type="button" name="button"><img src="images/pay/play.jpg"></button>
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay/pay.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>@ Copyright 2022</p>
+    </div>
+  </footer>
+  <!-- Footer Section Ends -->
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Javascript -->
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
